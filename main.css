@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Open Sans",
   sans-serif; 
-  font-size: 20px;
+  font-size: 1em;;
   color: #EEE0CB;
   text-align: center;
   line-height: 1.5;
@@ -56,6 +56,10 @@ nav {
 a {
   color: #BAA898;
   text-decoration: none;
+}
+
+a:hover {
+  color: #a4c639;
 }
 
 
@@ -107,10 +111,66 @@ li {
 }
 
 .contact {
-  background-color: red;
+  background-color: #2f0b0b;
   color: navajowhite;
 }
 
+.technologies {
+  margin-left: 12.5%;
+  width: 75%;
+  border-radius: 10px;
+}
+
+.trivia {
+  background-color: #2f0b0b;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.trivia:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.jobreel {
+  background-color: #3e1a1a;
+  border-radius: 10px;
+  padding: 0.5em;
+  line-height: 168%;
+  margin: 0.5em;
+}
+
+.jobreel:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.spaced-rep {
+  background-color:#630000;
+  border-radius: 10px;
+  padding: 0.5em;
+  line-height: 168%;
+  margin: 0.5em;
+}
+
+.spaced-rep:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.vkuss {
+  background-color:#3e1a1a;
+  border-radius: 10px;
+  padding: 0.5em;
+  line-height: 168%;
+  margin: 0.5em;
+}
+
+.vkuss:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+}
 @media only screen and (min-width: 600px) {
   .bio-text {
     width: 50%;
@@ -118,16 +178,15 @@ li {
 }
 
 #projects ul li {
-  text-align: center;
+  text-align: left;
   margin-right: auto;
   margin-left: auto;
 }
 
 .project-text {
-  width:50%;
-  margin-right: 25%;
-  margin-left: 25%;
-  text-align: center;
+  width:75%;
+  margin-left:12.5%;
+  text-align: left;
 }
 
 .hidden {
